@@ -1,0 +1,30 @@
+
+baseURL = "/"
+languageCode = "pl"
+title = "Stolarnia XYZ"
+theme = "ananke"
+
+[params]
+  description = "Ręcznie robione meble na wymiar – stolarnia z tradycją"
+  author = "Stolarnia XYZ"
+
+[menu]
+  [[menu.main]]
+    name = "O nas"
+    url = "/o-nas/"
+    weight = 1
+
+  [[menu.main]]
+    name = "Oferta"
+    url = "/oferta/"
+    weight = 2
+
+  [[menu.main]]
+    name = "Galeria"
+    url = "/galeria/"
+    weight = 3
+
+  [[menu.main]]
+    name = "Kontakt"
+    url = "/kontakt/"
+    weight = 4
